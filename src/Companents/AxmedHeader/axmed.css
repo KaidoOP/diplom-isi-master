@@ -1,0 +1,121 @@
+.silde-1 {
+    background-image: url("https://res.cloudinary.com/ds7i6phph/image/upload/v1677944993/WhatsApp_Image_2023-03-01_at_01.01.41_1_rrjdo3.jpg");
+
+}
+
+.silde-2 {
+    background-image: url("https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_stejcf.jpg");
+
+}
+
+.silde-3 {
+    background-image: url("https://res.cloudinary.com/ds7i6phph/image/upload/v1677944993/WhatsApp_Image_2023-03-01_at_01.01.41_2_fjgv4n.jpg");
+
+}
+
+.silde-4 {
+    background-image: url("https://res.cloudinary.com/ds7i6phph/image/upload/v1677944994/WhatsApp_Image_2023-03-01_at_01.01.41_3_i0pqbz.jpg");
+}
+
+.education-image {
+    width: 20%;
+    padding-bottom: 2rem;
+}
+
+.slider {
+    position: absolute !important;
+    top: 0 !important;
+    z-index: 10000;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    overflow: hidden !important;
+}
+
+.slider .slide {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.slider-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+    padding: 0 1.2rem;
+}
+
+.slider-caption h1 {
+    width: 60rem;
+    font-size: 5rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    padding-bottom: 1.3rem;
+}
+
+.slider-caption p {
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+
+.btn-custom {
+    padding: 16px 44px;
+    background-color: #fff;
+    font-weight: 700;
+    border: none;
+    transition: all .2s ease;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000 !important;
+}
+
+.btn-custom:hover {
+    color: #fff !important;
+    background-color: #2d76b2 !important;
+    z-index: 999 !important;
+}
+
+.swiper-button-next {
+    color: #fff !important;
+    transition: all .2s ease;
+}
+
+.swiper-button-prev {
+    color: #fff !important;
+    transition: all .2s ease;
+}
+
+.swiper-button-next:hover {
+    transform: translateX(5px);
+}
+
+.swiper-button-prev:hover {
+    transform: translateX(-5px);
+}
+
+@media (max-width: 992px) {
+    .slider-caption h1 {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .slider-caption h1 {
+        width: 20rem;
+        font-size: 4rem;
+    }
+
+    .education-image {
+        width: 40%;
+    }
+}

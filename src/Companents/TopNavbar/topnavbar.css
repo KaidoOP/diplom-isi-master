@@ -1,0 +1,36 @@
+.top-navbar-white {
+    position: relative;
+    z-index: 1115;
+    background-color: #fff !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 13px;
+}
+
+.top-navbar-white a {
+    color: #000 !important;
+}
+
+.top-navbar-white a:hover {
+    transition: all .3s ease;
+    color: #0f63ad !important;
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side-items {
+    padding-left: 16px;
+}
+
+.right-side-items {
+    padding-left: 16px;
+}
