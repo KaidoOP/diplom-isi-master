@@ -22,7 +22,6 @@ const CoursesList = () => {
         </div>
       </section>
 
-
       <section className="full-height px-lg-5">
         <div className="container">
           <div className='d-flex'>

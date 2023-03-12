@@ -38,7 +38,11 @@ const Navbar = () => {
                 </ul>
                 <ul className="right-side ">
                     <li className="right-side-items dropdown">
-                        <a href=".">English</a>
+                        <select href="/" name="English">
+                            <option value="-1">English</option>
+                            <option value>French</option>
+                            <option value>Russian</option>
+                        </select>
                     </li>
                     <li className="right-side-items">
                         <a href=".">Login</a>

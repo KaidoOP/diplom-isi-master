@@ -1,11 +1,12 @@
 import React from 'react'
 import '../NotFound/NotFound.css'
 import Button from '../../Companents/Button/Button'
-
+import WhiteNavbar from '../../Companents/WhiteNavbar/WhiteNavbar'
 
 const NotFound = () => {
   return (
     <>
+      <WhiteNavbar />
       <section className="full-height px-lg-5 bgNotfound">
         <div className="container">
           <div className="notfoundcontent">

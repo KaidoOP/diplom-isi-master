@@ -1,33 +1,34 @@
-.fourman{
+.fourman {
     background-image: url(./../../img/Fourman/Forumann.jpg);
     height: 50vh !important;
     background-repeat: no-repeat;
-    margin-bottom: 0!important;
-    
+    margin-bottom: 0 !important;
+
 }
 
-.active-content{
+.active-content {
     display: block;
 }
 
-.content{
+.content {
     display: none;
 }
 
-.active-tabs{
+.active-tabs {
     background: white;
     border-bottom: 1px solid transparent;
-    transition: all .4s ;
+    transition: all .4s;
 }
 
 .bloc-tabs {
     display: flex;
 }
+
 .tabs {
-  
+
     padding: 15px 5px;
     text-align: center;
-    
+
     background: rgba(128, 128, 128, 0.075);
     cursor: pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0.274);
@@ -36,7 +37,7 @@
     outline: none;
 }
 
-.tabs:not(:last-child){
+.tabs:not(:last-child) {
     border-right: 1px solid rgba(0, 0, 0, 0.274);
 }
 
@@ -50,63 +51,77 @@
     width: calc(100% + 2px);
     height: 5px;
     background: rgb(88, 147, 241);
-    
+
 }
 
-.active-tabs:hover{
+.active-tabs:hover {
     background-color: #fff;
 }
 
-.tabs:hover{
+.tabs:hover {
     background-color: #fff;
 }
 
 
 button {
     border: none;
-    
 }
 
+.fade-animation {
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
 
+@keyframes fade {
+    from {
+        opacity: 0.1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 .content hr {
-    
+
     height: 2px;
     background: #222;
-   
+
 }
-  .content p {
-   width: 50%;
+
+.content p {
+    width: 50%;
     height: 100%;
 }
-  .active-content {
+
+.active-content {
     display: block;
 }
 
-.tab-container{
+.tab-container {
     padding-bottom: 240px !important;
     margin: 0 auto;
-}  
+}
 
 @media(max-width:768px) and (min-width:200px) {
-    .content p{
+    .content p {
         margin: 0 auto;
         font-size: 10px;
-        
+
     }
 
-    .bloc-tabs{
+    .bloc-tabs {
         padding: 5px 10px;
         flex-wrap: wrap;
     }
-    
- }
+
+}
 
 @media(max-width:1180px) and (min-width:820px) {
 
-    .tab-container{
+    .tab-container {
         padding-bottom: 240px !important;
-    }  
+    }
 
-  
+
 }
